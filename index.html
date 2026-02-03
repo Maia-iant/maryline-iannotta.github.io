@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Maryline IANNOTTA - Portfolio Data</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, -apple-system, Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #222; }
+    header { background: #0b3c5d; color: #fff; padding: 2.5rem 1rem; }
+    header h1 { margin: 0 0 0.5rem; font-size: 2rem; }
+    header h2 { margin: 0; font-weight: 400; font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; }
+    main { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem 3rem; }
+    section { margin-bottom: 2.5rem; }
+    h3 { margin-top: 0; color: #0b3c5d; }
+    .tagline { font-style: italic; margin-top: 0.75rem; }
+    .grid-2 { display: grid; gap: 1.5rem; }
+    @media (min-width: 768px) { .grid-2 { grid-template-columns: 1.2fr 1fr; } }
+    .pill { display: inline-block; padding: 0.2rem 0.7rem; border-radius: 999px; background: #eaf3ff; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .cards { display: grid; gap: 1.5rem; }
+    @media (min-width: 768px) { .cards { grid-template-columns: repeat(3, 1fr); } }
+    .card { border: 1px solid #e0e0e0; border-radius: 8px; padding: 1rem 1rem 1.2rem; background: #fff; }
+    .card h4 { margin: 0 0 0.5rem; color: #0b3c5d; }
+    .badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 999px; background: #f3f3f3; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    ul { padding-left: 1.1rem; margin-top: 0.4rem; }
+    li { margin-bottom: 0.2rem; }
+    .btn { display: inline-block; margin-top: 0.7rem; padding: 0.4rem 0.9rem; border-radius: 999px; border: 1px solid #0b3c5d; color: #0b3c5d; text-decoration: none; font-size: 0.8rem; }
+    .btn:hover { background: #0b3c5d; color: #fff; }
+    .cols-3 { display: grid; gap: 1.5rem; }
+    @media (min-width: 768px) { .cols-3 { grid-template-columns: repeat(3, 1fr); } }
+    footer { background: #f5f5f5; padding: 1.5rem 1rem; }
+    footer .inner { max-width: 1000px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; font-size: 0.9rem; }
+    a { color: #0b3c5d; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="max-width:1000px;margin:0 auto;">
+    <h1>Maryline IANNOTTA</h1>
+    <h2>Data Analyst &amp; Cheffe de projet data junior – Projet Aéroworld</h2>
+    <p class="tagline">Ancienne comptable reconvertie en data analyst, avec une forte sensibilité aux données financières et de gestion.</p>
+  </div>
+</header>
+
+<main>
+
+  <!-- Qui je suis -->
+  <section id="about">
+    <h3>Qui suis‑je ?</h3>
+    <div class="grid-2">
+      <div>
+        <p>Aujourd’hui data analyst junior, je travaille sur des projets d’analyse de données métiers (finance, commerce, données publiques).</p>
+        <p>J’organise des projets d’analyse de données de bout en bout (cadrage, cahier des charges, livrables) et j’adopte une posture de consultante data auprès des équipes.</p>
+      </div>
+      <div>
+        <span class="pill">Axes forts</span>
+        <ul>
+          <li>Finance / comptabilité : FEC, indicateurs financiers, tableaux de bord.</li>
+          <li>Commerce / ventes : analyse de CA, profils clients, tendances.</li>
+          <li>Données publiques : alimentation mondiale, indicateurs macro.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mon rôle -->
+  <section id="role">
+    <h3>Mon rôle chez Aéroworld</h3>
+    <p><strong>Contexte :</strong> Aéroworld gère des masses de données (essais en vol, capteurs, maintenance, clients) et a besoin de transformer ces données en informations stratégiques pour la performance et la sécurité.</p>
+    <div class="cards">
+      <div class="card">
+        <h4>Cadrage &amp; cahier des charges</h4>
+        <ul>
+          <li>Cadrer les besoins métier en intégrant contraintes techniques et organisationnelles.</li>
+          <li>Formaliser des cahiers des charges fonctionnels pour structurer les projets data.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Pilotage de projet data</h4>
+        <ul>
+          <li>Organiser et piloter les projets (backlog, jalons, livrables, documentation).</li>
+          <li>Coordonner les parties prenantes métier et IT.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Accompagnement & conseil</h4>
+        <ul>
+          <li>Accompagner les équipes sur la prise en main des outils (Power BI, notebooks, dashboards).</li>
+          <li>Adopter une posture de consultante : challenge des demandes, vulgarisation, recommandations orientées décision.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projects">
+    <h3>Projets phares</h3>
+    <div class="cards">
+
+      <div class="card">
+        <h4>Alimentation mondiale (FAO)</h4>
+        <span class="badge">Python • Données publiques</span>
+        <p><strong>Problème métier :</strong> identifier les pays et régions en sous‑nutrition pour cibler les aides alimentaires.</p>
+        <ul>
+          <li>Données FAOSTAT 2013–2017, analyses Python/pandas, visualisations.</li>
+          <li>Effet Pareto : minorité de pays concentre la majorité de la sous‑nutrition.</li>
+          <li>Focus Haïti (&gt;48&nbsp;% de sous‑nutrition) et recommandations de priorisation des aides.</li>
+        </ul>
+        <a class="btn" href="https://github.com/Maia-iant/AnalyseAlimentation-Mondiale-2013-2017" target="_blank">Voir le projet sur GitHub</a>
+      </div>
+
+      <div class="card">
+        <h4>Ventes librairie LAPAGE</h4>
+        <span class="badge">Python • Statistiques</span>
+        <p><strong>Problème métier :</strong> comprendre le CA et anticiper les tendances de vente d’une librairie en ligne fictive.</p>
+        <ul>
+          <li>~680&nbsp;000 transactions, tests Chi² / ANOVA, visualisations (barres, courbes, heatmaps).</li>
+          <li>Effet Pareto : minorité de clients = majorité du CA.</li>
+          <li>Tendances saisonnières, influence âge/genre, produits top/flop.</li>
+        </ul>
+        <a class="btn" href="https://github.com/Maia-iant/analyse-ventes-librairie" target="_blank">Voir le projet sur GitHub</a>
+      </div>
+
+      <div class="card">
+        <h4>Tableau de bord FEC (Power BI)</h4>
+        <span class="badge">Power BI • Finance</span>
+        <p><strong>Problème métier :</strong> transformer un Fichier des Écritures Comptables en outil de pilotage financier.</p>
+        <ul>
+          <li>Modèle Power BI à partir d’un FEC normé (bilan, P&amp;L, trésorerie, BFR).</li>
+          <li>Analyse encours clients (DSO) et dettes fournisseurs (DPO), ancienneté des créances.</li>
+          <li>Ratios et alertes visuelles pour un pilotage accessible aux non‑comptables.</li>
+        </ul>
+        <a class="btn" href="https://github.com/Maia-iant/Tableau-de-bord-financier-partir-d-un-FEC-comptable" target="_blank">Voir le projet sur GitHub</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Posture -->
+  <section id="posture">
+    <h3>Posture de consultante &amp; gestion de projet</h3>
+    <div class="cols-3">
+      <div>
+        <h4>Gestion de projet</h4>
+        <ul>
+          <li>Cadrage des besoins et rédaction de cahiers des charges fonctionnels.</li>
+          <li>Planification et suivi (backlog, jalons, livrables, documentation).</li>
+          <li>Animation de revues de projet et restitution des résultats.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Posture de consultante</h4>
+        <ul>
+          <li>Challenge des demandes pour clarifier les vrais besoins.</li>
+          <li>Vulgarisation des analyses pour les profils non‑techniques.</li>
+          <li>Recommandations orientées business et décision.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Veille &amp; innovation</h4>
+        <ul>
+          <li>Tests réguliers de nouveaux outils (Python, BI, automatisation, IA appliquée aux données métiers).</li>
+          <li>Mise à jour des bonnes pratiques de qualité et de gouvernance de la donnée.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="inner">
+    <div>
+      <strong>Contact</strong><br>
+      Email : <a href="mailto:iannottamaryline@gmail.com">iannottamaryline@gmail.com</a><br>
+      GitHub : <a href="https://github.com/Maia-iant" target="_blank">Maia-iant</a><br>
+     LinkedIn : <a href="https://www.linkedin.com/in/maryline-iannotta" target="_blank">Profil LinkedIn</a>
+
+    </div>
+    <div>
+      <strong>Portfolio</strong><br>
+      Ce site présente mon portfolio data pour le projet Aéroworld (OpenClassrooms) et mes projets d’analyse de données.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
